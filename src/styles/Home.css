@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+.home-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+  z-index: 100;
+}
+.right-section1 {
+  width: 66.67%;
+  height: 100vh;
+  background-color: #1302198c;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding: 10px;
+}
+.head_line {
+  position: absolute;
+  top: 4vh; 
+  width: 65vw; 
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.title_block {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  top: 10vh; 
+  gap: 5px;
+}
+.title_block h1{
+  font-size: 5vh;
+  font-weight: bold;
+  align-items: center;
+}
+.house {
+  position: relative;
+  top:10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  height: 400vh;
+}
+
+.info-box-container {
+  display: grid;
+  grid-auto-flow: row; /* Changed from 'column' to 'row' */
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: space-around;
+  width: 60vw;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px; /* Add horizontal space between info boxes */
+  background-color: rgba(159, 67, 196, 0.281); /* Slightly transparent background for the info boxes */
+  padding: 10px;
+  border-radius: 10px; /* Optional: add rounded corners */
+}
+.info-number {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.info-text {
+  font-size: 1rem;
+}
+
+.home_block {
+  display: grid;
+  grid-auto-flow: row; /* Changed from 'column' to 'row' */
+  grid-template-columns: repeat(1, 1fr); /* Creates 2 columns */
+  grid-auto-rows: minmax(100px, auto);
+  position: relative;
+  top: 8vh;
+  align-items: center;
+}
+
+
+  /* Responsive Design - Media Queries */
+
+/* Larger screens, increase the space of the right section */
+@media (min-width: 1600px) {
+  .title_block{
+    top: 12vh;
+  }
+  .title_block h1{
+    font-size: 4vh;
+    font-weight: bold;
+  }
+  .house {
+    top: 15vh;
+  }
+
+  .info-number {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .info-text {
+    font-size: 1.4rem;
+  }
+
+}
