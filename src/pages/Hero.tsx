@@ -17,10 +17,10 @@ const Hero: React.FC = () => {
   return (
     <div className="hero-container" data-aos="zoom-out">
       <div className="left-section">
-      <div className="close">
+      {/* <div className="close"> */}
         <img src={Me} alt="Me" />
       </div>
-      </div>
+      {/* </div> */}
       <div className="right-section">
         
         <div className="content-section">
