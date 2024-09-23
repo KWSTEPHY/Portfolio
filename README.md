@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My Portfolio
 
-Currently, two official plugins are available:
+This project serves as the foundation for my portfolio, utilizing React with TypeScript and Vite for fast, modern development. It includes Hot Module Replacement (HMR) to speed up development with real-time updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## Expanding the ESLint configuration
+This portfolio showcases my work, background, and contact information through an engaging UI. It features sections such as *Home, **About, **Portfolio, and **Contact, along with a **Hero* section. The application is responsive, interactive, and built with modern web technologies.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Key Technologies:
+- *React*: For building user interfaces.
+- *TypeScript*: To add type safety to the JavaScript codebase.
+- *Vite*: For a fast development environment with built-in HMR.
+- *React Router*: For client-side routing to enable seamless navigation between pages.
 
-- Configure the top-level `parserOptions` property like this:
+## Project Structure
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```plaintext
+src/
+├── App.css
+├── App.tsx
+├── assets/
+│   ├── images/            
+│   ├── videos/            
+│   └── svgs/              
+├── components/            
+│   ├── Button.tsx
+│   ├── Header.tsx
+│   └── ContactForm.tsx
+├── pages/ 
+│   ├── About.tsx
+│   ├── Contact.tsx
+│   ├── Hero.tsx
+│   ├── Home.tsx
+│   └── Portfolio.tsx
+├── index.css              
+├── main.tsx               
+├── styles/                
+│   ├── About.css
+│   ├── ContactForm.css
+│   ├── Contact.css
+│   ├── Hero.css
+│   ├── Home.css
+│   ├── Button.css
+│   └── Portfolio.css
+├── vite-env.d.ts          
+├── tsconfig.json          
+└── vite.config.ts         
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Main Features
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Hero Section: An animated introduction to the portfolio, presenting core information.
+- Background Video: A fullscreen background video gives the site a dynamic feel.
+- Pages: Each section of the portfolio is divided into different pages (Home, About, Portfolio, Contact).
+- Smooth Navigation: Routing logic for seamless page transitions using React Router.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+## Running the Project
+
+To get started, follow these steps:
+
+1. Install dependencies:
+
+```
+npm install
+```
+
+2. Run the Development Server:
+
+```
+npm run dev
 ```
