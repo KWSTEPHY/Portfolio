@@ -76,7 +76,7 @@ body, html {
 }
 
 .vertical-links a:hover {
-  background: linear-gradient(to right, #f987d6, #6a47af 50%);
+  background: linear-gradient(90deg, rgba(46,139,87,1) 5%, rgba(224,255,255,1) 50%, rgba(47,79,79,1) 95%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; /* For other browsers */
@@ -111,14 +111,18 @@ body, html {
   height: 2px;
   bottom: -2px;
   left: 0;
-  background-color: #d1a6da;
+  background-color: #E0FFFF;
   transition: width 0.5s ease-in-out;
 }
 
 .other-content a:hover::after {
   width: 100%;
+ 
 }
+.other-content a:hover{
+  color: aquamarine !important;
 
+}
 /* Tag section */
 .tag-1 {
   color: rgb(223, 213, 213);

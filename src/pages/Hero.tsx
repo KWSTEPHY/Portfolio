@@ -4,7 +4,7 @@ import { FaRegCopyright } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Me from "../assets/06.jpg"
+import Me from "../assets/Portfolio.jpeg"
 
 const Hero: React.FC = () => {
   useEffect(() => {
@@ -17,7 +17,9 @@ const Hero: React.FC = () => {
   return (
     <div className="hero-container" data-aos="zoom-out">
       <div className="left-section">
+      <div className="close">
         <img src={Me} alt="Me" />
+      </div>
       </div>
       <div className="right-section">
         

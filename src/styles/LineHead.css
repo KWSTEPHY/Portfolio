@@ -8,7 +8,7 @@
 .line {
     width: 7vw; /* Adjust width as needed */
     height: 0.5vh; /* Adjust height as needed */
-    background-color: rgb(169, 112, 187);
+    background: linear-gradient(90deg, rgba(46,139,87,1) 5%, rgba(224,255,255,1) 50%, rgba(47,79,79,1) 95%);
     margin-bottom: 20px; /* Gap between the line and the text */
     position: relative;
     top: 15px;
@@ -16,14 +16,14 @@
   .line2 {
     width: 7vw; /* Adjust width as needed */
     height: 0.5vh; /* Adjust height as needed */
-    background-color: rgb(169, 112, 187);
+    background: linear-gradient(90deg, rgba(46,139,87,1) 5%, rgba(224,255,255,1) 50%, rgba(47,79,79,1) 95%);
     margin-bottom: 20px; /* Gap between the line and the text */
     position: relative;
     top: 15px;
   }
   .section_subtitle {
     font-size: 1.6vw; /* Adjust font size as needed */
-    color: #dd80dd; /* Adjust color as needed */
+    color: aquamarine; /* Adjust color as needed */
   }
   /* Responsive Design - Media Queries */
 

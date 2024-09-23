@@ -1,12 +1,10 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import '../styles/Button.css';
 
 const Button: React.FC = () => {
-  const navigate = useNavigate();
-
   const handleClick = () => {
-    navigate('/home');
+    // Open the Google Drive link in a new tab for file download
+    window.open('https://drive.google.com/file/d/1EycGQ-UBYp8natW2KOX8Z8AnDY6ZHsK2/view?usp=drive_link', '_blank');
   };
 
   return (

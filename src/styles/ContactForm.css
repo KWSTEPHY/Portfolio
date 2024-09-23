@@ -37,7 +37,8 @@
   padding: 15px 30px; 
   border: none;
   border-radius: 8px; 
-  background-color:rgba(121, 38, 204, 0.712);
+  background-color: #96e6c75d;
+ 
   color: white;
   cursor: pointer;
   align-self: center;
@@ -45,5 +46,5 @@
 }
 
 .contact-form button:hover {
-  background-color: #c296e65d;
+  background-color:rgba(47,79,79,1);
 }

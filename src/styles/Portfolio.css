@@ -48,7 +48,7 @@
   top: -40px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #130219;
+  background-color: rgba(47,79,79,1);
   padding: 10px;
   border-radius: 50%;
   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
@@ -79,8 +79,12 @@
   object-fit: contain;
 
 }
+h1 {
+  color: #ccf6ef;
+ 
+}
 h3 {
-  color: #ccd6f6;
+  color: #ccf6ef;
   margin: 0 0 0.5rem;
   font-size: 1.25rem;
 }

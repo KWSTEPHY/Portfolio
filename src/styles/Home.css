@@ -9,7 +9,7 @@
 .right-section1 {
   width: 66.67%;
   height: 100vh;
-  background-color: #1302198c;
+  background-color: #0533298c;
   display: flex;
   flex-direction: column;
   overflow-y: hidden;
@@ -64,7 +64,7 @@
   flex-direction: column;
   align-items: center;
   margin: 0 10px; /* Add horizontal space between info boxes */
-  background-color: rgba(159, 67, 196, 0.281); /* Slightly transparent background for the info boxes */
+  background-color: rgba(46, 139, 86, 0.493); /* Slightly transparent background for the info boxes */
   padding: 10px;
   border-radius: 10px; /* Optional: add rounded corners */
 }
@@ -113,3 +113,6 @@
   }
 
 }
+
+
+

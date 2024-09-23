@@ -20,7 +20,7 @@ const App: React.FC = () => {
         objectFit: "cover", // Ensures the video covers the entire screen
         zIndex: -1, // Ensure the video stays behind other content
       }}>
-        <source src="https://cdn.pixabay.com/video/2022/11/26/140580-775389256_large.mp4" type="video/mp4" />
+        <source src="https://cdn.pixabay.com/video/2016/09/14/5243-183786759_large.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

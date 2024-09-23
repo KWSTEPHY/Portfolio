@@ -7,7 +7,7 @@ import Header from "../components/Header";
 import LineHead from "../components/LineHead";
 import "/src/styles/Home.css";
 import { useNavigate } from "react-router-dom";
-import Me2 from "../assets/50.png"
+import Me2 from "../assets/home3.jpeg"
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
     });
   }, []);
 
-  const categories = ["Full Stack Web-Developer.", "UI/UX Designer."];
+  const categories = ["Frontend Web-Developer.", "UI/UX Designer."];
 
   const handleHomeRedirect = (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
             <LineHead title="Home" />
             <div className="title_block">
               <h1 className="title">
-                My name is Stephy.
+                Hello 😃 I'm Stephy.
                 <br />
                 I am a <br /> <TypedJS strings={categories} />
               </h1>
@@ -63,7 +63,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="left-section1">
+      <div className="left-section">
         <div className="close">
           <img src={Me2} alt="Me2" />
         </div>
